@@ -8,6 +8,10 @@ RUN \
   # Install software dependencies
   apt-get install -y --force-yes \
     libqt4-dev \
-    libqtwebkit-dev
+    libqtwebkit-dev \
+    postgresql-client \
+    libpq-dev \
+    libxml2-dev \
+    libv8-dev
 
 CMD ["irb"]
