@@ -10,4 +10,4 @@ RUN \
     libqt4-dev \
     libqtwebkit-dev
 
-CMD["irb"]
+CMD ["irb"]
